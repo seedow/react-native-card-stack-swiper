@@ -348,19 +348,19 @@ export default class CardStack extends Component {
         switch (direction) {
           case 'left':
             this.props.onSwipedLeft(index);
-            this.state.cards[index].props.onSwipedLeft();
+            //this.state.cards[index].props.onSwipedLeft();
             break;
           case 'right':
             this.props.onSwipedRight(index);
-            this.state.cards[index].props.onSwipedRight();
+            //this.state.cards[index].props.onSwipedRight();
             break;
           case 'top':
             this.props.onSwipedTop(index);
-            this.state.cards[index].props.onSwipedTop();
+            //this.state.cards[index].props.onSwipedTop();
             break;
           case 'bottom':
             this.props.onSwipedBottom(index);
-            this.state.cards[index].props.onSwipedBottom();
+            //this.state.cards[index].props.onSwipedBottom();
             break;
           default:
         }
